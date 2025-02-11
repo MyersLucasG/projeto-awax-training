@@ -330,3 +330,33 @@ nav li a:hover {
     border-left: none;
 }
 
+.section-projects--photos {
+    width: 100vw;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.projects--photo {
+    width: 280px;
+}
+
+.projects-photo--photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.projects-photo--photoarea img {
+    width: inherit;
+    height: inherit;
+}
+
+.projects-photo--infoarea {
+
+}
+
+
