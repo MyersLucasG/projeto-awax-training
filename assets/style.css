@@ -356,7 +356,31 @@ nav li a:hover {
 }
 
 .projects-photo--infoarea {
-
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
 }
 
+.projects-photo--infoarea h1 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
 
+.projects-photo--infoarea p {
+    color: #ccc;
+}
+
+.projects-photo--photoarea:hover .projects-photo--infoarea {
+    display: flex;
+}
+
+.projects-photo--infoarea.on {
+    display: flex;
+}
